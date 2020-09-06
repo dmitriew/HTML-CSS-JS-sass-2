@@ -1,0 +1,29 @@
+//* WORKS 
+.works {
+  background-color: #fbfbfb;
+}
+.works__title {
+  color: #262626;
+  font-family: Tahoma;
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 103px;
+}
+@media (max-width: 800px) {
+  .works__title {
+    margin-bottom: 20px;
+    padding-top: auto;
+  }
+}
+.works__item-text {
+  color: #8993ad;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.9;
+  margin-bottom: 40px;
+}

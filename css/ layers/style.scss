@@ -1,0 +1,31 @@
+// Default
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Tahoma', sans-serif;
+  background-color: #ffffff;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+@import "_header";
+@import "_about";
+@import "_works";
+@import "_adv";
+@import "_footer";
+@import "_modal";
